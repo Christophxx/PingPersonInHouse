@@ -38,9 +38,9 @@ if(strpos($StatusPerson, $FilterOne) || strpos($StatusPerson, $FilterTwo)){
                 <img class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="text-decoration: underline" 
-                    data-toggle="tooltip" data-placement="top" title="<?= $StatusPersonOne ?>">Christoph</h5>
-                    <p class="card-text">Onlinestatus von : <?= $IpPersoneOne ?></p>
-                    <?= $PersonOne ?>
+                    data-toggle="tooltip" data-placement="top" title="<?= $StatusPerson ?>"> PERSON NAME </h5>
+                    <p class="card-text">Onlinestatus von : <?= $IpPersone ?></p>
+                    <?= $Person ?>
                 </div>
             </div>
         </div>
